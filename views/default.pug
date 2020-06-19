@@ -1,0 +1,42 @@
+doctype html
+html
+    head
+        title #{title}
+        link(rel='stylesheet', href='/css/index.css')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+    body
+        main
+            block header
+                header.header
+                    div.logo
+                        // This links back to the root domain
+                        a(href='/')
+                            img(src="/imgs/genvira_logo.png" width = '100%' height = '60px')
+
+                    div.header-text
+                        h3 High Quality Solutions - Fast Turnaround Time
+
+                div.header-links
+                    div.header-links-column-spacer
+
+                    a(href='https://www.google.com').header-links-column
+                        p Partners and Investors
+                    a(href='https://www.google.ca').header-links-column
+                        p Careers
+                    a(href='https://www.google.ca').header-links-column
+                        p About
+
+                    div.header-links-column-spacer
+
+            block content
+
+            block footer
+                footer.footer
+                    div.column
+                        p test
+                    div.column
+                        p dest
+                    div.column
+                        p dest
+                    // p #{title} testesteste
+                    //meta(name="viewport" content="width=device-width, initial-scale=1")

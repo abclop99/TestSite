@@ -1,0 +1,40 @@
+extends default
+
+block content
+
+    div.top-background
+
+        div.container
+            each panel in panels
+                a(href='/engineering').panel
+
+                    h2.panel-name
+                        | #{panel.label}
+                        //: #{panel.tagline}
+
+        div.text-container
+            p Genvira specializes in viral engineering. We design, construct and characterize customized DNA and RNA viruses for:
+            ul
+                li Cancer immunotherapy
+                li Gene therapy and
+                li Vaccines
+
+            p In addition, Genvira conducts viral and non-viral based cell engineering.
+
+            p Our contract research services include
+            ul
+                li End-to-end engineering
+                li Consulting for CMC and regulatory filing
+                li Pre-clinical animal models and efficacy study
+                ul
+                    li Assay development
+                    li In vitro MOA
+                    li In vivo efficacy study
+
+            p Our small scale production suite can manufacture sufficient materials for pre-clinical studies.
+
+            p We’re proud to use our world-leading proprietary engineering technologies to quickly deliver high-quality engineered vectors and cells.
+
+
+            //
+                //

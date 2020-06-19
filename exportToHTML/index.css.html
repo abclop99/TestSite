@@ -1,0 +1,272 @@
+<html>
+<head>
+<title>index.css</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #606366; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(128,128,128); }
+.s1 { color: rgb(169,183,198); }
+.s2 { color: rgb(232,191,106); }
+.s3 { color: rgb(186,186,186); }
+.s4 { color: rgb(169,183,198); }
+.s5 { color: rgb(165,194,97); }
+.s6 { color: rgb(204,120,50); }
+.s7 { color: rgb(104,151,187); }
+.s8 { color: rgb(106,135,89); }
+</style>
+</head>
+<BODY BGCOLOR="#2b2b2b">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+index.css</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">/* ========================================================================== 
+   #STYLES 
+   ========================================================================== */</span><span class="s1"> 
+ 
+ 
+</span><span class="s0">/** 
+ * 
+ * [1]: Inheriting box sizing slightly better best-practice 
+ * https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ 
+ * 
+ * [2]: WordPress System font-stack 
+ */</span><span class="s1"> 
+ 
+ 
+</span><span class="s0">/* RESET 
+   ========================================================================== */</span><span class="s1"> 
+ 
+ 
+</span><span class="s2">html </span><span class="s1">{ 
+    </span><span class="s3">box-sizing</span><span class="s4">: </span><span class="s5">border-box</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+</span><span class="s6">*, *</span><span class="s4">::</span><span class="s2">before</span><span class="s6">, *</span><span class="s4">::</span><span class="s2">after </span><span class="s1">{ 
+    </span><span class="s3">box-sizing</span><span class="s4">: </span><span class="s5">inherit</span><span class="s6">; </span><span class="s0">/* [1] */</span><span class="s1"> 
+    </span><span class="s3">margin</span><span class="s4">: </span><span class="s7">0</span><span class="s6">;</span><span class="s1"> 
+ 
+} 
+ 
+ 
+ 
+</span><span class="s0">/* FONTS 
+   ========================================================================== */</span><span class="s1"> 
+ 
+</span><span class="s2">body </span><span class="s1">{ 
+    </span><span class="s3">font-family</span><span class="s4">: </span><span class="s5">-apple-system</span><span class="s6">,</span><span class="s2">BlinkMacSystemFont</span><span class="s6">,</span><span class="s8">&quot;Segoe UI&quot;</span><span class="s6">,</span><span class="s2">Roboto</span><span class="s6">,</span><span class="s2">Oxygen-Sans</span><span class="s6">,</span><span class="s2">Ubuntu</span><span class="s6">,</span><span class="s2">Cantarell</span><span class="s6">,</span><span class="s8">&quot;Helvetica Neue&quot;</span><span class="s6">,</span><span class="s5">sans-serif</span><span class="s6">; </span><span class="s0">/* [2] */</span><span class="s1"> 
+ 
+} 
+ 
+ 
+ 
+ 
+</span><span class="s0">/* Header 
+   ========================================================================== */</span><span class="s1"> 
+ 
+.</span><span class="s2">header </span><span class="s1">{ 
+    </span><span class="s3">width</span><span class="s4">: </span><span class="s7">100</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">display</span><span class="s4">: </span><span class="s5">flex</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">justify-content</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">align-items</span><span class="s4">: </span><span class="s5">left</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">height</span><span class="s4">: </span><span class="s7">60</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">background-color</span><span class="s4">: </span><span class="s7">#b6e3ff</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">color</span><span class="s4">: </span><span class="s7">#FFFFFF</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+.</span><span class="s2">header-text</span><span class="s1">{ 
+    </span><span class="s3">text-align</span><span class="s4">: </span><span class="s5">right</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">position</span><span class="s4">: </span><span class="s5">absolute</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">top</span><span class="s4">: </span><span class="s7">18</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">right</span><span class="s4">: </span><span class="s7">5</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">color</span><span class="s4">: </span><span class="s7">#000000</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+ 
+ 
+.</span><span class="s2">header-links </span><span class="s1">{ 
+    </span><span class="s3">width</span><span class="s4">: </span><span class="s7">100</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">display</span><span class="s4">: </span><span class="s5">flex</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">align-items</span><span class="s4">: </span><span class="s5">left</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">justify-content</span><span class="s4">: </span><span class="s5">left</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">height</span><span class="s4">: </span><span class="s7">40</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">background-color</span><span class="s4">: </span><span class="s7">#00adef</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">color</span><span class="s4">: </span><span class="s7">#FFFFFF</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">margin-bottom</span><span class="s4">: </span><span class="s7">20</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+.</span><span class="s2">header-links-column-spacer </span><span class="s1">{ 
+    </span><span class="s3">flex</span><span class="s4">: </span><span class="s7">30</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">text-align</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">background</span><span class="s4">: </span><span class="s2">rgba</span><span class="s1">(</span><span class="s7">80</span><span class="s6">, </span><span class="s7">80</span><span class="s6">, </span><span class="s7">80</span><span class="s6">, </span><span class="s7">0.1</span><span class="s1">)</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+.</span><span class="s2">header-links-column </span><span class="s1">{ 
+    </span><span class="s3">flex</span><span class="s4">: </span><span class="s7">15</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">padding</span><span class="s4">: </span><span class="s7">10</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">text-align</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">background</span><span class="s4">: </span><span class="s2">rgba</span><span class="s1">(</span><span class="s7">80</span><span class="s6">, </span><span class="s7">80</span><span class="s6">, </span><span class="s7">80</span><span class="s6">, </span><span class="s7">0.1</span><span class="s1">)</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+.</span><span class="s2">header-links-column</span><span class="s4">:</span><span class="s2">hover </span><span class="s1">{ 
+    </span><span class="s3">background</span><span class="s4">: </span><span class="s2">rgba</span><span class="s1">(</span><span class="s7">80</span><span class="s6">, </span><span class="s7">80</span><span class="s6">, </span><span class="s7">80</span><span class="s6">, </span><span class="s7">0.3</span><span class="s1">)</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+ 
+</span><span class="s0">/* Homepage Container 
+   ========================================================================== */</span><span class="s1"> 
+ 
+.</span><span class="s2">container </span><span class="s1">{ 
+    </span><span class="s3">width</span><span class="s4">: </span><span class="s7">100</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">margin</span><span class="s4">: </span><span class="s7">20</span><span class="s5">px auto</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">padding-left</span><span class="s4">: </span><span class="s7">30</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">padding-right</span><span class="s4">: </span><span class="s7">30</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">display</span><span class="s4">: </span><span class="s5">grid</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">align-items</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">text-align</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">grid-template-columns</span><span class="s4">: </span><span class="s2">repeat</span><span class="s1">(</span><span class="s7">4</span><span class="s6">, </span><span class="s7">1</span><span class="s2">fr</span><span class="s1">)</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">grid-gap</span><span class="s4">: </span><span class="s7">40</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+.</span><span class="s2">text-container </span><span class="s1">{ 
+    </span><span class="s3">width</span><span class="s4">: </span><span class="s7">55</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">margin</span><span class="s4">: </span><span class="s7">10</span><span class="s5">px auto</span><span class="s6">;</span><span class="s1"> 
+ 
+    </span><span class="s3">padding</span><span class="s4">: </span><span class="s7">8</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">background-color</span><span class="s4">: </span><span class="s7">#00adef</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+.</span><span class="s2">top-background</span><span class="s1">{ 
+    </span><span class="s3">z-index</span><span class="s4">: </span><span class="s1">-</span><span class="s7">1</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">height</span><span class="s4">: </span><span class="s7">200</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">background-image</span><span class="s4">: </span><span class="s2">url</span><span class="s1">(</span><span class="s8">&quot;../imgs/building.jpg&quot;</span><span class="s1">)</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+ 
+ 
+</span><span class="s0">/* Profile Card 
+   ========================================================================== */</span><span class="s1"> 
+ 
+.</span><span class="s2">person </span><span class="s1">{ 
+    </span><span class="s3">text-align</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+.</span><span class="s2">person </span><span class="s1">&gt; </span><span class="s6">* </span><span class="s1">{ 
+    </span><span class="s3">margin-bottom</span><span class="s4">: </span><span class="s7">5</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+.</span><span class="s2">person-image </span><span class="s1">{ 
+    </span><span class="s3">width</span><span class="s4">: </span><span class="s7">100</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">height</span><span class="s4">: </span><span class="s7">300</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+ 
+ 
+</span><span class="s0">/* Profile Page 
+   ========================================================================== */</span><span class="s1"> 
+ 
+.</span><span class="s2">panel </span><span class="s1">{ 
+    </span><span class="s3">display</span><span class="s4">: </span><span class="s5">flex</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">max-height</span><span class="s4">: </span><span class="s7">30</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">min-height</span><span class="s4">: </span><span class="s7">100</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">width</span><span class="s4">: </span><span class="s7">100</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">align-items</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">text-align</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">padding-left</span><span class="s4">: </span><span class="s7">30</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">padding-right</span><span class="s4">: </span><span class="s7">30</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">padding-bottom</span><span class="s4">: </span><span class="s7">20</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">background</span><span class="s4">: </span><span class="s2">rgba</span><span class="s1">(</span><span class="s7">200</span><span class="s6">, </span><span class="s7">200</span><span class="s6">, </span><span class="s7">200</span><span class="s6">, </span><span class="s7">0.8</span><span class="s1">)</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+.</span><span class="s2">panel</span><span class="s4">:</span><span class="s2">hover </span><span class="s1">{ 
+    </span><span class="s3">background</span><span class="s4">: </span><span class="s2">rgba</span><span class="s1">(</span><span class="s7">80</span><span class="s6">, </span><span class="s7">80</span><span class="s6">, </span><span class="s7">80</span><span class="s6">, </span><span class="s7">0.4</span><span class="s1">)</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+.</span><span class="s2">panel-name</span><span class="s1">{ 
+    </span><span class="s3">display</span><span class="s4">: </span><span class="s5">inline-block</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">text-align</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">align-items</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">color</span><span class="s4">: </span><span class="s5">black</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+ 
+</span><span class="s0">/* Buttons 
+   ========================================================================== */</span><span class="s1"> 
+ 
+.</span><span class="s2">button </span><span class="s1">{ 
+    </span><span class="s3">height</span><span class="s4">: </span><span class="s7">50</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">line-height</span><span class="s4">: </span><span class="s7">50</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">width</span><span class="s4">: </span><span class="s7">100</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">text-decoration</span><span class="s4">: </span><span class="s5">none</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">text-align</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">font-size</span><span class="s4">: </span><span class="s7">20</span><span class="s5">px</span><span class="s1"> 
+} 
+ 
+.</span><span class="s2">button-twitter </span><span class="s1">{ 
+    </span><span class="s3">color</span><span class="s4">: </span><span class="s7">#FFFFFF</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">background-color</span><span class="s4">: </span><span class="s7">#659AF1</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">border-radius</span><span class="s4">: </span><span class="s7">5</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</span><span class="s0">/* Logo 
+ 
+ */</span><span class="s1"> 
+ 
+.</span><span class="s2">logo </span><span class="s1">{ 
+    </span><span class="s3">max-width</span><span class="s4">: </span><span class="s7">10</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">height</span><span class="s4">: </span><span class="s5">auto</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">position</span><span class="s4">: </span><span class="s5">absolute</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">top</span><span class="s4">: </span><span class="s7">0</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">left</span><span class="s4">: </span><span class="s7">0</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+ 
+</span><span class="s0">/* Footer 
+   ========================================================================== */</span><span class="s1"> 
+ 
+.</span><span class="s2">footer </span><span class="s1">{ 
+    </span><span class="s0">/*position: fixed;*/</span><span class="s1"> 
+    </span><span class="s3">left</span><span class="s4">: </span><span class="s7">0</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">bottom</span><span class="s4">: </span><span class="s7">0</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">width</span><span class="s4">: </span><span class="s7">100</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">display</span><span class="s4">: </span><span class="s5">flex</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">justify-content</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">align-items</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">height</span><span class="s4">: </span><span class="s7">80</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">background-color</span><span class="s4">: </span><span class="s7">#30b2c9</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">color</span><span class="s4">: </span><span class="s7">#FFFFFF</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s0">/*margin-bottom: 50px;*/</span><span class="s1"> 
+} 
+ 
+ 
+</span><span class="s0">/* Create two equal columns that sits next to each other */</span><span class="s1"> 
+.</span><span class="s2">column </span><span class="s1">{ 
+    </span><span class="s3">flex</span><span class="s4">: </span><span class="s7">33</span><span class="s1">%</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">padding</span><span class="s4">: </span><span class="s7">10</span><span class="s5">px</span><span class="s6">;</span><span class="s1"> 
+    </span><span class="s3">text-align</span><span class="s4">: </span><span class="s5">center</span><span class="s6">;</span><span class="s1"> 
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</span></pre>
+</body>
+</html>

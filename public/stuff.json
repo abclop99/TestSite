@@ -1,0 +1,44 @@
+{
+  "panels": [
+    {
+      "label": "Cell and Viral Engineering",
+      "tagline": "",
+      "imgSrc": "/imgs/golarionMap.jpeg",
+      "id": "machine",
+      "height": "128",
+      "width": "256",
+      "type": "img"
+    },
+
+    {
+      "label": "Assay development",
+      "tagline": "technician doing whatever",
+      "imgSrc": "/vids/test.webm",
+      "id": "caroline",
+      "height": "128",
+      "width": "256",
+      "type": "video"
+    },
+
+    {
+      "label": "Animal models",
+      "tagline": "technician doing whatever",
+      "imgSrc": "/vids/test.webm",
+      "id": "a",
+      "height": "128",
+      "width": "256",
+      "type": "video"
+    },
+
+    {
+      "label": "Process development and small-scale production",
+      "tagline": "technician doing whatever",
+      "imgSrc": "/vids/test.webm",
+      "id": "b",
+      "height": "128",
+      "width": "256",
+      "type": "video"
+    }
+
+  ]
+}
